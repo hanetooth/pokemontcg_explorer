@@ -1,0 +1,42 @@
+@import 'variables.module';
+
+html, body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100%;
+}
+
+body {
+  margin: 0; /* Reset margin to eliminate default spacing */
+  padding: 0; /* Reset padding to eliminate default spacing */
+}
+
+main {
+  background-color: $canvas-bg;
+  min-height: 80vh;
+  flex-direction: row !important;
+  // make it scrollable
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.card-list {
+  margin-top: 40px;
+}
+
+.MuiGrid-container {
+  background-color: $canvas-bg;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}

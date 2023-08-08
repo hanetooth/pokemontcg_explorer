@@ -1,0 +1,51 @@
+// Colors
+$main-bg: #FFFFFF;
+$main-text: #1D1C1C;
+
+$canvas-bg: #F8F8F8;
+
+$danger-color: #FD2929;
+$danger-color-dark: #B10202;
+
+$app-bar-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03);
+$box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.03);
+
+$input-placeholder-text-color: #BCBBBB;
+$input-text-color: #6A6969;
+
+$highlight-text-color: #0F6DB0;
+
+$primary-button-color: #298BFD;
+$round-button-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.07);
+
+$card-button-color: #FDCE29;
+
+$cart-button-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+$cart-badge-bg: #FF6363;
+
+$dialog-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.03);
+
+:export {
+  mainBg: $main-bg;
+  mainText: $main-text;
+  dangerColor: $danger-color;
+  dangerColorDark: $danger-color-dark;
+  
+  appBarShadow: $app-bar-shadow;
+  boxShadow: $box-shadow;
+
+  inputPlaceholderTextColor: $input-placeholder-text-color;
+  inputTextColor: $input-text-color;
+
+  highlightTextColor: $highlight-text-color;
+  
+  primaryButtonColor: $primary-button-color;
+  roundButtonShadow: $round-button-shadow;
+
+  cardButtonColor: $card-button-color;
+
+  cartButtonShadow: $cart-button-shadow;
+  cartBadgeBg: $cart-badge-bg;
+
+  dialogShadow: $dialog-shadow;
+}
